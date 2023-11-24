@@ -81,6 +81,116 @@ nav ul li a:hover::after{
     color: #ababab;
 
 }
+
+
+/* Add this CSS to your existing CSS file or create a new one */
+
+/* Styles for the skills table */
+.skills-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+    padding: 12px;
+    text-align: center;
+    
+    /* Adjusted border color */
+}
+
+.skills-table th {
+    background-color: #1c1c1c;
+    /* Dark background color */
+    color: #ff004f;
+    /* Pink color for table headers */
+}
+
+.skills-table tr:nth-child(even) {
+    background-color: #1c1c1c;
+    /* Darker background for even rows */
+    color: #ababab;
+    /* White color for text */
+}
+
+/* CSS Animation for the table */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skills-table tr {
+    animation: slideIn 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+/* Add this CSS to your existing CSS file or create a new one */
+
+/* Styles for the education list */
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item {
+    background-color: #262626;
+    /* Dark background color */
+    color: #ababab;
+    /* Text color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease-in-out;
+    /* Animation */
+}
+
+.education-item h4 {
+    margin-bottom: 5px;
+    color: #ff004f;
+    /* Header color */
+}
+
+.education-item p span {
+    color: #ababab;
+    /* Date color */
+}
+
+/* Animation for education items */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 .row{
     display: flex;
     justify-content: space-between;
